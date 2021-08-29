@@ -1,0 +1,76 @@
+#doc3 {
+    margin: auto 10px;
+    width: auto;
+    height: 2000px;
+    background-color: yellow;
+}
+.all{
+
+    width: 80%;
+    margin : auto;
+    font-family: arial;
+}
+.Button{
+    text-decoration: none;
+    color: #64ffda;
+    float: left;
+    padding: 4px;
+    border: 2px #64ffda solid;
+    border-radius: 4px;
+    margin: auto;
+}
+.Button a{
+    text-decoration: none;
+    color: #64ffda;
+}
+.Button a:hover{
+color: white;
+}
+
+.footer{
+
+   float: center; 
+   margin : auto;
+   font-family: arial;
+}
+
+.header h6{
+
+    font-family: Courier;
+    color: #64ffda;
+    font-size: 18px;
+}
+.header h1{
+    font-family: Sans-serif;
+    font-size: 40px;
+    color: #ccd6f6;
+}
+.space{
+padding-top: 20px;
+}
+
+ p{
+    color: #8892b0;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color:#64ffda;
+}
+li{
+ color: #8892b0;
+ list-style-type: none;
+ 
+}
+
+h2{
+
+color: #e6f1ff;
+}
+
+dt{
+color : #ccd6f6;
+}
+h3 {
+    color:#64ffda;
+}
