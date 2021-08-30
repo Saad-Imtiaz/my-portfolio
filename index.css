@@ -16,12 +16,14 @@
     float: left;
     padding: 9px;
     border: 2px #64ffda solid;
-    border-radius: 4px;
+    border-radius: 5px;
     margin: auto;
+  
 }
 .Button a{
     text-decoration: none;
     color: #64ffda;
+    font-family:Cascadia Mono;
 }
 .Button a:hover{
 color: white;
@@ -60,6 +62,9 @@ a {
     font-weight: bold;
     color:#64ffda;
 }
+a:hover{
+    color: white;
+}
 li{
  color: #8892b0;
  list-style-image: url(images/pointer.png);
@@ -80,4 +85,24 @@ color : #ccd6f6;
 }
 h3 {
     color:#64ffda;
+}
+.aboutme{
+    width: 60%;
+    float: left;
+    overflow: auto;
+    box-sizing: border-box
+}
+
+.mypic{
+    
+    float: right;
+    overflow: auto;
+    box-sizing: border-box
+}
+
+.moreinfo{
+    box-sizing: border-box;
+    overflow: auto;
+    width: 60%;
+    box-sizing: block;
 }
