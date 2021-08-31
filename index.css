@@ -4,6 +4,47 @@
     height: 2000px;
     background-color: yellow;
 }
+.navbar {  
+    display: inline-block; 
+    margin-left:55%;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.navbar a :hover{
+color: white;
+}
+
+.navbar li{
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    }
+
+    
+.Resume{
+    display: inline-block;
+    text-decoration: none;
+    color: #64ffda;
+    padding: 9px;
+    border: 2px #64ffda solid;
+    border-radius: 5px;
+}
+.Resume a{
+    text-decoration: none;
+    color: #64ffda;
+    font-family:Cascadia Mono;
+}
+
+.Resume a:hover{
+color: white;
+}
+
 .all{
 
     width: 80%;
@@ -14,8 +55,8 @@
     text-decoration: none;
     color: #64ffda;
     float: left;
-    padding: 9px;
-    border: 2px #64ffda solid;
+    padding: 15px;
+    border: 1.5px #64ffda solid;
     border-radius: 5px;
     margin: auto;
   
@@ -49,6 +90,13 @@ color: white;
     font-size: 40px;
     color: #ccd6f6;
 }
+.all h3{
+    margin-top:20px;
+}
+
+.all h2{
+    margin-top:5%;
+}
 .space{
 padding-top: 20px;
 }
@@ -67,13 +115,11 @@ a {
 a:hover{
     color: white;
 }
-li{
+.all li{
  color: #8892b0;
  list-style-image: url(images/pointer.png);
  text-align: justify;
   text-justify: inter-word;
-
-
  
 }
 
@@ -108,3 +154,31 @@ h3 {
     width: 60%;
     box-sizing: block;
 }
+
+
+
+    .contact {
+        text-align: center;
+    }
+    .contact p{
+        color: #8892b0;
+        text-align: center;
+        text-justify: none;
+        width: 70%;
+    margin : auto;
+    }
+
+    .emaillink{
+        margin:0 auto;    
+        display:block;
+        width: 87px;
+        text-decoration: none;
+        color: #64ffda;
+        padding: 15px;
+        border: 1.5px #64ffda solid;
+        border-radius: 5px;
+    }
+   
+    .emaillink :hover{
+    color: white;
+    }
