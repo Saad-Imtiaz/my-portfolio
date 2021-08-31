@@ -30,10 +30,12 @@ color: white;
 }
 
 .footer{
-
-   float: center; 
+   
    margin : auto;
-   font-family: arial;
+   font-family: Cascadia Mono;
+   color:white;
+   text-align: center;
+   font-size: 10px;
 }
 
 .header h6{
