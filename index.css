@@ -1,9 +1,4 @@
-#doc3 {
-    margin: auto 10px;
-    width: auto;
-    height: 2000px;
-    background-color: yellow;
-}
+
 .navbar {  
     display: inline-block; 
     margin-left:55%;
@@ -38,7 +33,7 @@ color: white;
 .Resume a{
     text-decoration: none;
     color: #64ffda;
-    font-family:Cascadia Mono;
+    font-family:SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace;
 }
 
 .Resume a:hover{
@@ -49,8 +44,9 @@ color: white;
 
     width: 80%;
     margin : auto;
-    font-family: arial;
+    font-family: Calibre, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
 }
+
 .Button{
     text-decoration: none;
     color: #64ffda;
@@ -64,7 +60,7 @@ color: white;
 .Button a{
     text-decoration: none;
     color: #64ffda;
-    font-family:Cascadia Mono;
+    font-family:SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace;
 }
 .Button a:hover{
 color: white;
@@ -73,7 +69,7 @@ color: white;
 .footer{
    
    margin : auto;
-   font-family: Cascadia Mono;
+   font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace;
    color:white;
    text-align: center;
    font-size: 10px;
@@ -81,30 +77,45 @@ color: white;
 
 .header h6{
 
-    font-family:Cascadia Mono,plain ;
+    font-family:SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace ;
     color: #64ffda;
-    font-size: 18px;
+    font-size: 16px;
+    margin-top: 10px !important;
+margin-bottom: 10px !important;
 }
 .header h1{
-    font-family: Sans-serif;
-    font-size: 40px;
+
+    font-family:  Calibre, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+    font-size: 80px;
     color: #ccd6f6;
-}
-.all h3{
-    margin-top:20px;
+    margin-top: 0px !important;
+margin-bottom: 20px !important;
 }
 
 .all h2{
-    margin-top:5%;
+   margin-bottom: 20px !important;
+    font-size : 60px;
 }
+.all h3{
+    font-size : 27px;
+    margin-top:10px;
+}
+.all h4{
+    font-size : 20px;
+    margin-top:10px;
+    color: #ccd6f6;
+}
+
 .space{
 padding-top: 20px;
 }
 
  p{
+    font-size: 18px;
     color: #8892b0;
     text-align: justify;
     text-justify: inter-word;
+    font-family: Calibre, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
 }
 
 a {
@@ -126,6 +137,8 @@ a:hover{
 h2{
 
 color: #e6f1ff;
+margin-top: 0px !important;
+margin-bottom: 0px !important;
 }
 
 dt{
@@ -181,4 +194,9 @@ h3 {
    
     .emaillink :hover{
     color: white;
+    }
+
+    .mywork {
+        font-size: 13px;
+        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
     }
