@@ -42,7 +42,7 @@ color: white;
 
 .all{
 
-    width: 80%;
+    width: 65%;
     margin : auto;
     font-family: Calibre, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
 }
@@ -77,10 +77,11 @@ color: white;
 
 .header h6{
 
-    font-family:SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace ;
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace ;
     color: #64ffda;
-    font-size: 16px;
-    margin-top: 10px !important;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 125px !important;
 margin-bottom: 10px !important;
 }
 .header h1{
@@ -109,7 +110,9 @@ margin-bottom: 20px !important;
 .space{
 padding-top: 20px;
 }
-
+.intopara {
+    width: 60%;
+}
  p{
     font-size: 18px;
     color: #8892b0;
@@ -184,7 +187,7 @@ h3 {
     .emaillink{
         margin:0 auto;    
         display:block;
-        width: 87px;
+        width: 90px;
         text-decoration: none;
         color: #64ffda;
         padding: 15px;
