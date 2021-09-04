@@ -3,9 +3,15 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace ;
+    font-weight: 400;
+    font-size: 12px;
 }
 
 .navbar li{
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace ;
+    font-weight: 400;
+    font-size: 12px;
     float: right;
     padding: 3px;
     }
@@ -14,6 +20,9 @@
     display: inline-block;
     text-align: center;
     text-decoration: none;
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace ;
+    font-weight: 400;
+    font-size: 12px;
 }
   .navbar a :hover{
 color: white;
@@ -96,6 +105,7 @@ margin-bottom: 20px !important;
 .all h2{
    margin-bottom: 20px !important;
     font-size : 60px;
+    color : #8892b0;
 }
 .all h3{
     font-size : 27px;
