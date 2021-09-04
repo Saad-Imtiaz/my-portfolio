@@ -4,24 +4,25 @@
     padding: 0;
     overflow: hidden;
     font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace ;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 12px;
 }
 
 .navbar li{
     font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace ;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 12px;
     float: right;
     padding: 3px;
     }
 .navbar li a{
+
     padding: 8px;
     display: inline-block;
     text-align: center;
     text-decoration: none;
     font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace ;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 12px;
 }
   .navbar a :hover{
@@ -91,7 +92,7 @@ color: white;
     font-weight: 400;
     font-size: 18px;
     margin-top: 125px !important;
-margin-bottom: 10px !important;
+    margin-bottom: 10px !important;
 }
 .header h1{
 
@@ -148,7 +149,6 @@ a:hover{
 }
 
 h2{
-
 color: #e6f1ff;
 margin-top: 0px !important;
 margin-bottom: 0px !important;
@@ -175,7 +175,8 @@ h3 {
     
     float: right;
     overflow: auto;
-    box-sizing: border-box
+    box-sizing: border-box;
+    margin-top: 19px;
 }
 
 .moreinfo{
