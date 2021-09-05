@@ -111,11 +111,13 @@ margin-bottom: 20px !important;
 .all h3{
     font-size : 27px;
     margin-top:10px;
+    color: rgb(255, 255, 255);
 }
 .all h4{
     font-size : 20px;
     margin-top:10px;
-    color: #ccd6f6;
+    /* color: #ccd6f6; */
+    color: rgb(255, 255, 255);
 }
 
 .space{
@@ -126,7 +128,8 @@ padding-top: 20px;
 }
  p{
     font-size: 18px;
-    color: #8892b0;
+    /* color: #8892b0; */
+    color: white;
     text-align: justify;
     text-justify: inter-word;
     font-family: Calibre, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
@@ -141,7 +144,8 @@ a:hover{
     color: white;
 }
 .all li{
- color: #8892b0;
+ /* color: #8892b0; */
+ color: white;
  list-style-image: url(images/pointer.png);
  text-align: justify;
   text-justify: inter-word;
