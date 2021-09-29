@@ -1,0 +1,236 @@
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace ;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.navbar li{
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace ;
+    font-weight: 500;
+    font-size: 12px;
+    float: right;
+    padding: 3px;
+    }
+.navbar li a{
+
+    padding: 8px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace ;
+    font-weight: 500;
+    font-size: 12px;
+}
+  .navbar a :hover{
+color: white;
+}
+  
+.Resume {
+    color: #64ffda;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    border: 1px #64ffda solid;
+    border-radius: 5px;
+    float: right !important;
+}
+.Resume a{
+    text-decoration: none;
+    text-align: center;
+    color: #64ffda;
+    display: inline-block;
+    font-family:SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace;
+}
+
+.Resume a:hover{
+color: white;
+}
+
+.all{
+    width: 65%;
+    margin : auto;
+    font-family: Calibre, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+}
+
+.Button{
+    text-decoration: none;
+    color: #64ffda;
+    float: left;
+    padding: 15px;
+    border: 1.5px #64ffda solid;
+    border-radius: 5px;
+    margin: auto;
+  
+}
+.Button a{
+    text-decoration: none;
+    color: #64ffda;
+    font-family:SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace;
+}
+.Button a:hover{
+color: white;
+}
+
+.footer{
+   
+   margin : auto;
+   font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace;
+   color:white;
+   text-align: center;
+   font-size: 10px;
+}
+
+.header h6{
+
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, monospace ;
+    color: #64ffda;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 125px !important;
+    margin-bottom: 10px !important;
+}
+.header h1{
+
+    font-family:  Calibre, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+    font-size: 80px;
+    color: #ccd6f6;
+    margin-top: 0px !important;
+margin-bottom: 20px !important;
+}
+
+.all h2{
+   margin-bottom: 20px !important;
+    font-size : 60px;
+    color : #8892b0;
+}
+.all h3{
+    font-size : 27px;
+    margin-top:10px;
+    color: rgb(255, 255, 255);
+}
+.all h4{
+    font-size : 20px;
+    margin-top:10px;
+    /* color: #ccd6f6; */
+    color: rgb(255, 255, 255);
+}
+
+.space{
+padding-top: 20px;
+}
+.intopara {
+    width: 60%;
+}
+ p{
+    font-size: 18px;
+    /* color: #8892b0; */
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: Calibre, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color:#64ffda;
+}
+a:hover{
+    color: white;
+}
+.all li{
+ /* color: #8892b0; */
+ color: white;
+ list-style-image: url(images/pointer.png);
+ text-align: justify;
+  text-justify: inter-word;
+ 
+}
+
+h2{
+color: #e6f1ff;
+margin-top: 0px !important;
+margin-bottom: 0px !important;
+}
+
+dt{
+color : #ccd6f6;
+}
+h3 {
+    color:#64ffda;
+}
+.aboutme {
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+.aboutmep{
+    width: 60%;
+    float: left;
+    overflow: auto;
+    box-sizing: border-box
+}
+
+.mypic{
+    
+    float: right;
+    overflow: auto;
+    box-sizing: border-box;
+    margin-top: 19px;
+}
+
+.moreinfo{
+    box-sizing: border-box;
+    overflow: auto;
+    width: 60%;
+    box-sizing: block;
+}
+.mywork {
+    font-size: 13px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+.work {
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+.projects{
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+    .contact {
+        text-align: center;
+        margin-top: 30%;
+        margin-bottom: 10%;
+    }
+    .contact p{
+        color: #8892b0;
+        text-align: center;
+        text-justify: none;
+        width: 70%;
+        margin : auto;
+
+    }
+
+    .emaillink{
+        margin-top: 10%;    
+        margin-bottom: 30%;    
+        text-align: center;
+    }
+    .emaillink a {    
+         color: #64ffda;
+        text-decoration: none;
+        padding: 15px;
+        border: 1px #64ffda solid;
+        border-radius: 5px;
+        
+    }
+   
+    .emaillink :hover{
+    color: white;
+    }
+
+  
