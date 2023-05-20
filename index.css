@@ -1,3 +1,7 @@
+.html{
+scroll-behavior: smooth;
+}
+
 .navbar ul{
     list-style-type: none;
     margin: 0;
@@ -5,11 +9,21 @@
     overflow: hidden;
     font-family: Fira Code, Fira Mono, Roboto Mono, monospace ;
     font-weight: 500;
-    
     font-size: 12px;
-
 }
 
+#aboutme{
+    height: 100%;
+    padding-top: 250px;
+}
+
+#contact,
+#work,#projects{
+    height: 100%;
+    padding-top: 70px;
+    height: auto;
+    padding-top: 70px;
+}
 .navbar li{
     font-family:  Fira Code, Fira Mono, Roboto Mono, monospace ;
     font-weight: 500;
@@ -18,7 +32,6 @@
     padding: 3px;
     }
 .navbar li a{
-
     padding: 8px;
     display: inline-block;
     text-align: center;
@@ -182,8 +195,8 @@ h3 {
     color:#64ffda;
 }
 .aboutme {
-    margin-top: 30%;
-    margin-bottom: 30%;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 .aboutmep{
     width: 60%;
@@ -211,17 +224,17 @@ h3 {
     font-family: " ", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
 }
 .work {
-    margin-top: 30%;
-    margin-bottom: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .projects{
-    margin-top: 30%;
-    margin-bottom: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
     .contact {
         text-align: center;
-        margin-top: 30%;
-        margin-bottom: 10%;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .contact p{
         color: #8892b0;
@@ -233,14 +246,17 @@ h3 {
     }
 
     .emaillink{
-        margin-top: 10%;    
+        margin-top: 30px;    
         margin-bottom: 30%;    
         text-align: center;
     }
     .emaillink a {    
          color: #64ffda;
         text-decoration: none;
-        padding: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
         border: 1px #64ffda solid;
         border-radius: 5px;
         
