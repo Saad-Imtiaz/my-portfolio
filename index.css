@@ -1,4 +1,4 @@
-.html{
+html{
 scroll-behavior: smooth;
 }
 
@@ -14,7 +14,7 @@ scroll-behavior: smooth;
 
 #aboutme{
     height: 100%;
-    padding-top: 250px;
+    padding-top: 7%;
 }
 
 #contact,
@@ -124,19 +124,37 @@ color: white;
     margin-top: 125px !important;
     margin-bottom: 10px !important;
 }
+
+@keyframes moveh1 {
+  50% {
+     left: 50px;
+  }
+}
+@keyframes moveh2 {
+  50% {
+     left: 70px;
+  }
+}
+
 .header h1{
 
     font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
     font-size: 80px;
     color: #ccd6f6;
     margin-top: 0px !important;
-margin-bottom: 20px !important;
+    margin-bottom: 20px !important;
+    position: relative;
+    left:1px;
+    animation: moveh1 3s ease;
 }
 
 .all h2{
    margin-bottom: 20px !important;
     font-size : 60px;
     color : #8892b0;
+    position: relative;
+    left:1px;
+    animation: moveh2 3s ease;
 }
 .all h3{
     font-size : 27px;
