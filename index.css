@@ -2,6 +2,12 @@ html{
 scroll-behavior: smooth;
 }
 
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .navbar ul{
     list-style-type: none;
     margin: 0;
@@ -12,24 +18,15 @@ scroll-behavior: smooth;
     font-size: 12px;
 }
 
-#aboutme{
-    height: 100%;
-    padding-top: 7%;
-}
-
-#contact,
-#work,#projects{
-    height: 100%;
-    padding-top: 70px;
-    height: auto;
-    padding-top: 70px;
-}
 .navbar li{
     font-family:  Fira Code, Fira Mono, Roboto Mono, monospace ;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     float: right;
-    padding: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
     }
 .navbar li a{
     padding: 8px;
@@ -38,19 +35,20 @@ scroll-behavior: smooth;
     text-decoration: none;
     font-family: Fira Code, Fira Mono, Roboto Mono, monospace ;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
 }
   .navbar a :hover{
 color: white;
 }
-  
-.Resume {
+
+
+/* .Resume {
     color: #64ffda;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 300px;
     margin-right: 20px;
 
     border: 1px #64ffda solid;
@@ -67,7 +65,22 @@ color: white;
 
 .Resume a:hover{
 color: white;
+} */
+
+#aboutme{
+    height: 100%;
+    padding-top: 7%;
 }
+
+#contact,
+#work,#projects{
+    height: 100%;
+    padding-top: 70px;
+    height: auto;
+    padding-top: 70px;
+}
+
+
 
 .all{
     width: 65%;
