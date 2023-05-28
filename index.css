@@ -83,9 +83,98 @@ color: white;
 
 
 .all{
-    width: 65%;
+    width: 900px;
     margin : auto;
-    font-family: Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+}
+
+.card-container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.card {
+  background-color: #1b2536;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  min-width: 600px;
+  max-width: 700px;
+}
+
+.card-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  /* padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 0px; */
+}
+.card-header >:nth-child(1) {
+    flex: 1 1 70%;
+}
+
+.position{
+font-size: large;
+display : flex;
+-webkit-box-align: center;
+align-items: center;
+font-weight: bold;
+color: #ccd6f6;
+font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+}
+.position a{
+    margin-left: 10px;
+    padding-left: 2px;
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: #64ffda;
+    font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+}
+.position a:hover{
+color: white;
+text-decoration: none;
+}
+.duration {
+      color: #ccd6f6;
+        font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+}
+.card-body {
+    display: flex;
+  max-height: 0;
+  overflow: hidden;
+  padding-top: 0px;
+  padding-right: 60px;
+  text-align: left;
+font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+  transition: max-height 0.7s ease-in-out;
+}
+
+.card.expanded .card-body {
+  max-height: 700px;
+}
+
+.plus-icon {
+    width : 20px;
+    height: 20px;
+}
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .social-parent{
@@ -127,7 +216,9 @@ color: white;
    text-align: center;
    font-size: 10px;
 }
-
+.header {
+    height: 70vh;
+}
 .header h6{
 
     font-family:Fira Code, Fira Mono, Roboto Mono, monospace ;
@@ -170,16 +261,21 @@ color: white;
     animation: moveh2 3s ease;
 }
 .all h3{
+    
+    font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
     font-size : 27px;
     margin-top:10px;
     color: rgb(255, 255, 255);
 }
 .all h4{
     font-size : 20px;
-    margin-top:10px;
+    /* margin-top:10px;  */
     /* color: #ccd6f6; */
+    margin: 3%;
     color: rgb(255, 255, 255);
+        font-family:  Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
 }
+
 
 .space{
 padding-top: 20px;
@@ -191,32 +287,33 @@ padding-top: 20px;
     font-size: 18px;
     /* color: #8892b0; */
     color: white;
-    text-align: justify;
-    text-justify: inter-word;
     font-family:  Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
 }
 
-a {
+
+a.highlight{
     text-decoration: none;
     font-weight: bold;
-    color:#64ffda;
+    color: #64ffda;
 }
-a:hover{
+a.highlight:hover{
+    text-decoration: none;
+    font-weight: bold;
     color: white;
 }
 .all li{
  /* color: #8892b0; */
  color: white;
  list-style-image: url(images/pointer.png);
- text-align: justify;
-  text-justify: inter-word;
- 
+ text-align: left;
 }
+ 
 
 h2{
 color: #e6f1ff;
 margin-top: 0px !important;
 margin-bottom: 0px !important;
+font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
 }
 
 dt{
@@ -250,10 +347,11 @@ h3 {
     width: 60%;
     box-sizing: block;
 }
-.mywork {
-    font-size: 13px;
-    font-family: " ", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+.mywork{
+    font-size: 14px;
+    font-family: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
 }
+
 .work {
     margin-top: 20px;
     margin-bottom: 20px;
