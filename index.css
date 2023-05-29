@@ -40,8 +40,24 @@ scroll-behavior: smooth;
   .navbar a :hover{
 color: white;
 }
-
-
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll hidden;
+    scroll-snap-type: y mandatory;
+}
+.slides{
+    width: 100%;
+    height: 110vh;
+    padding-top: 10%;
+    gap: 20px;
+    scroll-snap-align: start;
+    align-items: center;
+    align-content: center;
+}
 /* .Resume {
     color: #64ffda;
     padding-left: 30px;
@@ -83,9 +99,10 @@ color: white;
 
 
 .all{
-    width: 900px;
-    margin : auto;
-}
+   width: 900px;
+   margin : auto;
+   
+} 
 
 .card-container{
 display: flex;
@@ -111,7 +128,6 @@ flex-direction: column;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-
   /* padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
@@ -153,11 +169,11 @@ text-decoration: none;
     padding-right: 20px;
 }
 .card-body {
-    display: flex;
-  max-height: 0;
   overflow: hidden;
   padding-top: 0px;
   padding-right: 60px;
+    display: flex;
+    max-height: 0;
   text-align: left;
 font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
   transition: max-height 0.7s ease-in-out;
@@ -170,6 +186,7 @@ font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, s
 .plus-icon {
     width : 20px;
     height: 20px;
+
 }
 button {
   border: none;
@@ -177,6 +194,9 @@ button {
   cursor: pointer;
 }
 
+.card.collapsed .card-body {
+  max-height: 0;
+}
 .social-parent{
 width: 50%;
 }
@@ -216,8 +236,8 @@ color: white;
    text-align: center;
    font-size: 10px;
 }
-.header {
-    height: 70vh;
+.header{
+   padding-top: 7vh;
 }
 .header h6{
 
