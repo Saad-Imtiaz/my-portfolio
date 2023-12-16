@@ -1,7 +1,19 @@
 html{
 scroll-behavior: smooth;
+background-color: #0a192f;
 }
+.body{
+/* background-color: #0a192f; */
+  /* background-color: #2b3b64;
+  backdrop-filter: blur(80%);
+   */
+   /* border: 1px solid rgba(255, 255, 255, .25); */
+  /* border-radius: 20px; */
+   /* background-color: rgba(11, 188, 219, 0.288);  */
+  /* box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25); */
 
+  backdrop-filter: blur(15px);
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -35,13 +47,27 @@ scroll-behavior: smooth;
     text-decoration: none;
     font-family: Fira Code, Fira Mono, Roboto Mono, monospace ;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
 }
   .navbar a :hover{
 color: white;
 }
-
-
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll hidden;
+    scroll-snap-type: y mandatory;
+}
+.slides{
+    width: 100%;
+    height: 110vh;
+    scroll-snap-align: start;
+    align-items: center;
+    align-content: center;
+}
 /* .Resume {
     color: #64ffda;
     padding-left: 30px;
@@ -72,32 +98,151 @@ color: white;
     padding-top: 7%;
 }
 
-#contact,
-#work,#projects{
-    height: 100%;
-    padding-top: 70px;
+.work{
     height: auto;
     padding-top: 70px;
+    height: auto;
 }
 
 
+.projects{
+      height: auto;
+    padding-top: 70px;
+    height: auto;
+}
+
+.contact, #contactme{
+    height: 500px;
+    padding-top: 70px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
 
 .all{
-    width: 65%;
-    margin : auto;
-    font-family: Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+   max-width: 1000px;
+   min-width: auto;
+   margin : auto;
+} 
+
+.card-container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 }
 
+.card {
+  background-color: #077c9194;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  min-width: 600px;
+  max-width: 700px;
+   transition: transform 0.5s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.02);
+      backdrop-filter: none;
+}
+
+.card-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    color: #8892b0;
+  /* padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 0px; */
+}
+.card-header >:nth-child(1) {
+    flex: 1 1 70%;
+}
+
+.position{
+font-size: large;
+display : flex;
+-webkit-box-align: center;
+align-items: center;
+font-weight: bold;
+color: #ccd6f6;
+font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+}
+.position a{
+    margin-left: 10px;
+    padding-left: 2px;
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: #64ffda;
+    font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+}
+.position a:hover{
+color: white;
+text-decoration: none;
+}
+.duration {
+      color: #ccd6f6;
+        font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+}
+.card-body {
+  overflow: hidden;
+  padding-top: 0px;
+  padding-right: 60px;
+    display: flex;
+    max-height: 0;
+  text-align: left;
+font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+  transition: max-height 0.7s ease-in-out;
+}
+
+.card.expanded .card-body {
+  max-height: 700px;
+}
+
+.plus-icon {
+    width : 20px;
+    height: 20px;
+
+}
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.card.collapsed .card-body {
+  max-height: 0;
+}
 .social-parent{
-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .linkedIn {
-    float: left;
     height:100px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .email {
-    margin-left: 50px;
     height:100px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .Button{
@@ -119,6 +264,65 @@ width: 50%;
 color: white;
 }
 
+
+.projects-container{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+grid-gap: 20px !important;
+max-width: 1000px;
+margin: 0 auto;
+padding: 30px;
+justify-content: center;
+align-items: center;
+}
+
+.projects-card {
+  background-color: #077c9194;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 310px;
+  transition: transform 0.3s ease-in-out;
+  justify-content: center;
+align-items: center;
+}
+.projects-card:hover{
+    transform: scale(1.02);
+}
+
+.project-card-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+}
+
+.project-card-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ccd6f6;
+    font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+}
+/* .project-card-subtitle{
+    font-size: 15px;
+    padding-top: 5px;
+    font-weight: bold;
+    color: #ccd6f6;
+    font-family:  Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+} */
+
+.project-card-picture img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+}
 .footer{
    
    margin : auto;
@@ -127,7 +331,11 @@ color: white;
    text-align: center;
    font-size: 10px;
 }
+.header{
+   padding-top: 30vh;
+   text-align: center;
 
+}
 .header h6{
 
     font-family:Fira Code, Fira Mono, Roboto Mono, monospace ;
@@ -152,8 +360,8 @@ color: white;
 .header h1{
 
     font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
-    font-size: 80px;
-    color: #ccd6f6;
+    font-size: 64px;
+    color: #64ffda;
     margin-top: 0px !important;
     margin-bottom: 20px !important;
     position: relative;
@@ -170,53 +378,79 @@ color: white;
     animation: moveh2 3s ease;
 }
 .all h3{
+    
+    font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
     font-size : 27px;
     margin-top:10px;
     color: rgb(255, 255, 255);
 }
 .all h4{
     font-size : 20px;
-    margin-top:10px;
+    /* margin-top:10px;  */
     /* color: #ccd6f6; */
+    margin: 3%;
     color: rgb(255, 255, 255);
+        font-family:  Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
 }
+
 
 .space{
 padding-top: 20px;
 }
 .intopara {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    color: #8892b0;
+    text-align: center;
+    text-justify: none;
     width: 60%;
+    margin : auto;
+}
+.intopara2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    font-size: 24px;
+    font-family: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    color: #8892b0;
+    text-align: center;
+    text-justify: none;
+    width: 60%;
+    margin : auto;
 }
  p{
     font-size: 18px;
     /* color: #8892b0; */
     color: white;
-    text-align: justify;
-    text-justify: inter-word;
     font-family:  Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
 }
 
-a {
+
+a.highlight{
     text-decoration: none;
     font-weight: bold;
-    color:#64ffda;
+    color: #64ffda;
 }
-a:hover{
+a.highlight:hover{
+    text-decoration: none;
+    font-weight: bold;
     color: white;
 }
 .all li{
  /* color: #8892b0; */
  color: white;
  list-style-image: url(images/pointer.png);
- text-align: justify;
-  text-justify: inter-word;
- 
+ text-align: left;
 }
+ 
 
 h2{
 color: #e6f1ff;
 margin-top: 0px !important;
 margin-bottom: 0px !important;
+font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
 }
 
 dt{
@@ -233,7 +467,10 @@ h3 {
     width: 60%;
     float: left;
     overflow: auto;
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-family: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    color: #8892b0;
+    font-weight: 600;
 }
 
 .mypic{
@@ -249,14 +486,25 @@ h3 {
     overflow: auto;
     width: 60%;
     box-sizing: block;
+    font-family: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    color: #8892b0;
+    font-weight: 600;
 }
-.mywork {
-    font-size: 13px;
-    font-family: " ", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+.mywork{
+    font-family: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    color: #8892b0;
+    font-weight: 600;
 }
+.mywork li{
+    font-family: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    color: #8892b0;
+}
+
 .work {
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    color: #8892b0;
 }
 .projects{
     margin-top: 20px;
@@ -290,11 +538,25 @@ h3 {
         padding-bottom: 8px;
         border: 1px #64ffda solid;
         border-radius: 5px;
+        font-family: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
         
     }
    
     .emaillink :hover{
     color: white;
     }
+    .emaillink a:hover{
+        border: 1px #ffffff solid;
+    }
+    
 
-  
+  .footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    color: #8892b0;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: "Fira Code", "Fira Mono", "Roboto Mono", monospace;;
+  }
