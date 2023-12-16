@@ -135,13 +135,13 @@ flex-direction: column;
   background-color: #077c9194;
   backdrop-filter: blur(10px);
   border-radius: 10px;
-  padding-left: 30px;
   padding-right: 30px;
+  padding-left: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  min-width: 600px;
-  max-width: 700px;
+  min-width: 700px;
+  max-width: 800px;
    transition: transform 0.5s ease-in-out;
 }
 .card:hover{
@@ -169,18 +169,18 @@ font-size: large;
 display : flex;
 -webkit-box-align: center;
 align-items: center;
-font-weight: bold;
+font-weight: 500;
 color: #ccd6f6;
-font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+font-family:   Inter;
 }
 .position a{
     margin-left: 10px;
     padding-left: 2px;
     text-decoration: none;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
     color: #64ffda;
-    font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+    font-family:   Inter;
 }
 .position a:hover{
 color: white;
@@ -188,11 +188,12 @@ text-decoration: none;
 }
 .duration {
       color: #ccd6f6;
-        font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+        font-family:   Inter;
     text-decoration: none;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
     text-align: right;
+
     padding-right: 20px;
 }
 .card-body {
@@ -202,8 +203,9 @@ text-decoration: none;
     display: flex;
     max-height: 0;
   text-align: left;
-font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+font-family:   Inter;
   transition: max-height 0.7s ease-in-out;
+  font-weight: 500;
 }
 
 .card.expanded .card-body {
@@ -301,21 +303,21 @@ align-items: center;
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
-    font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+    font-family:   Inter;
 }
 
 .project-card-title{
     font-size: 20px;
     font-weight: bold;
     color: #ccd6f6;
-    font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+    font-family:   Inter;
 }
 /* .project-card-subtitle{
     font-size: 15px;
     padding-top: 5px;
     font-weight: bold;
     color: #ccd6f6;
-    font-family:  Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+    font-family:  Inter;
 } */
 
 .project-card-picture img{
@@ -359,8 +361,9 @@ align-items: center;
 
 .header h1{
 
-    font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
-    font-size: 64px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 66px;
     color: #64ffda;
     margin-top: 0px !important;
     margin-bottom: 20px !important;
@@ -379,7 +382,7 @@ align-items: center;
 }
 .all h3{
     
-    font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+    font-family: Inter;
     font-size : 27px;
     margin-top:10px;
     color: rgb(255, 255, 255);
@@ -390,7 +393,7 @@ align-items: center;
     /* color: #ccd6f6; */
     margin: 3%;
     color: rgb(255, 255, 255);
-        font-family:  Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+        font-family:  Inter;
 }
 
 
@@ -424,7 +427,7 @@ padding-top: 20px;
     font-size: 18px;
     /* color: #8892b0; */
     color: white;
-    font-family:  Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+    font-family:  Inter;
 }
 
 
@@ -450,7 +453,7 @@ h2{
 color: #e6f1ff;
 margin-top: 0px !important;
 margin-bottom: 0px !important;
-font-family:   Circular Std, Inter, San Francisco, SF Pro Text, -apple-system, system-ui, sans-serif;
+font-family:   Inter;
 }
 
 dt{
