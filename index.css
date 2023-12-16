@@ -142,6 +142,11 @@ flex-direction: column;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   min-width: 600px;
   max-width: 700px;
+   transition: transform 0.5s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.02);
+      backdrop-filter: none;
 }
 
 .card-header {
@@ -487,12 +492,17 @@ h3 {
         padding-bottom: 8px;
         border: 1px #64ffda solid;
         border-radius: 5px;
+        font-family: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
         
     }
    
     .emaillink :hover{
     color: white;
     }
+    .emaillink a:hover{
+        border: 1px #ffffff solid;
+    }
+    
 
   .footer{
     margin-top: 20px;
