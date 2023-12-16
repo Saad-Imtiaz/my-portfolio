@@ -132,7 +132,7 @@ flex-direction: column;
 }
 
 .card {
-  background-color: #077c9194;
+  background-color: #022d3594;
   backdrop-filter: blur(10px);
   border-radius: 10px;
   padding-right: 30px;
@@ -198,7 +198,7 @@ text-decoration: none;
 }
 .card-body {
   overflow: hidden;
-  padding-top: 0px;
+  padding-top: 10px;
   padding-right: 60px;
     display: flex;
     max-height: 0;
