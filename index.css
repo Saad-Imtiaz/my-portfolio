@@ -171,7 +171,7 @@ display : flex;
 align-items: center;
 font-weight: 500;
 color: #ccd6f6;
-font-family:   Inter;
+font-family:   "Inter";
 }
 .position a{
     margin-left: 10px;
@@ -180,7 +180,7 @@ font-family:   Inter;
     text-decoration: none;
     font-weight: 500;
     color: #64ffda;
-    font-family:   Inter;
+    font-family:   "Inter";
 }
 .position a:hover{
 color: white;
@@ -188,7 +188,7 @@ text-decoration: none;
 }
 .duration {
       color: #ccd6f6;
-        font-family:   Inter;
+        font-family:   "Inter";
     text-decoration: none;
     text-decoration: none;
     font-weight: 500;
@@ -203,7 +203,7 @@ text-decoration: none;
     display: flex;
     max-height: 0;
   text-align: left;
-font-family:   Inter;
+font-family:   "Inter";
   transition: max-height 0.7s ease-in-out;
   font-weight: 500;
 }
@@ -303,21 +303,21 @@ align-items: center;
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
-    font-family:   Inter;
+    font-family:   "Inter";
 }
 
 .project-card-title{
     font-size: 20px;
     font-weight: bold;
     color: #ccd6f6;
-    font-family:   Inter;
+    font-family:   "Inter";
 }
 /* .project-card-subtitle{
     font-size: 15px;
     padding-top: 5px;
     font-weight: bold;
     color: #ccd6f6;
-    font-family:  Inter;
+    font-family:  "Inter";
 } */
 
 .project-card-picture img{
@@ -328,19 +328,19 @@ align-items: center;
 .footer{
    
    margin : auto;
-   font-family:  Fira Code, Fira Mono, Roboto Mono, monospace;
+   font-family:  "Fira Code", Fira Mono, Roboto Mono, monospace;
    color:white;
    text-align: center;
    font-size: 10px;
 }
 .header{
-   padding-top: 30vh;
+   padding-top: 17%;
    text-align: center;
 
 }
 .header h6{
 
-    font-family:Fira Code, Fira Mono, Roboto Mono, monospace ;
+    font-family:"Fira Code", Fira Mono, Roboto Mono, monospace ;
     color: #64ffda;
     font-weight: 400;
     font-size: 18px;
@@ -361,7 +361,7 @@ align-items: center;
 
 .header h1{
 
-    font-family: Inter;
+    font-family: "Inter";
     font-weight: 600;
     font-size: 66px;
     color: #64ffda;
@@ -382,7 +382,7 @@ align-items: center;
 }
 .all h3{
     
-    font-family: Inter;
+    font-family: "Inter";
     font-size : 27px;
     margin-top:10px;
     color: rgb(255, 255, 255);
@@ -393,7 +393,7 @@ align-items: center;
     /* color: #ccd6f6; */
     margin: 3%;
     color: rgb(255, 255, 255);
-        font-family:  Inter;
+        font-family:  "Inter";
 }
 
 
@@ -414,7 +414,8 @@ padding-top: 20px;
 .intopara2 {
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-top: 15px;
+    padding-top: 25px;
+    padding-bottom: 20px;
     font-size: 24px;
     font-family: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
     color: #8892b0;
@@ -427,7 +428,7 @@ padding-top: 20px;
     font-size: 18px;
     /* color: #8892b0; */
     color: white;
-    font-family:  Inter;
+    font-family: "Inter";
 }
 
 
@@ -453,7 +454,7 @@ h2{
 color: #e6f1ff;
 margin-top: 0px !important;
 margin-bottom: 0px !important;
-font-family:   Inter;
+font-family:   "Inter";
 }
 
 dt{
@@ -474,14 +475,6 @@ h3 {
     font-family: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
     color: #8892b0;
     font-weight: 600;
-}
-
-.mypic{
-    
-    float: right;
-    overflow: auto;
-    box-sizing: border-box;
-    margin-top: 19px;
 }
 
 .moreinfo{
@@ -561,5 +554,5 @@ h3 {
     color: #8892b0;
     font-size: 16px;
     font-weight: 800;
-    font-family: "Fira Code", "Fira Mono", "Roboto Mono", monospace;;
+    font-family: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   }
